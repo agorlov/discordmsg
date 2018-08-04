@@ -1,8 +1,14 @@
 {
   "name": "agorlov/discordmsg",
   "description": "PHP Class To Send Discord message",
+  "authors": [
+    {
+      "name": "Alexandr Gorlov",
+      "email": "a.gorlov@gmail.com"
+    }
+  ],
   "keywords": ["php", "library","class", "discord", "message"],
-  "type": "project",
+  "type": "library",
   "homepage": "https://github.com/agorlov/discordmsg",
   "license": "MIT",
   "version": "1.0.0",
@@ -12,5 +18,6 @@
   "require": {
     "php": ">=7.1.0",
     "ext-curl": "*"
-  }
+  },
+  "minimum-stability": "stable"
 }
