@@ -68,6 +68,9 @@ final class DiscordMsg implements Msg
     public function send(): void
     {
         $curl = curl_init();
+        //timeouts - 5 seconds
+        curl_setopt($curl, CURLOPT_TIMEOUT, 5); // 5 seconds
+        curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 5); // 5 seconds
 
         curl_setopt($curl, CURLOPT_URL, $this->url);
         curl_setopt($curl, CURLOPT_POST, 1);
