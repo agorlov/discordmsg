@@ -1,0 +1,19 @@
+{
+  "name": "agorlov/discordmsg",
+  "description": "PHP Class To Send Discord message",
+  "keywords": ["php", "library","class", "discord", "message"],
+  "type": "project",
+  "homepage": "https://github.com/agorlov/discordmsg",
+  "license": "MIT",
+
+  "autoload": {
+    "classmap": ["DiscordMsg.php"]
+  },
+//  "require-dev": {
+//    "phpunit/phpunit": "4.3.*"
+//  },
+  "require": {
+    "php": ">=7.1.0",
+    "ext-curl": "*"
+  }
+}
