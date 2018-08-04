@@ -17,6 +17,5 @@
   "require": {
     "php": ">=7.1.0",
     "ext-curl": "*"
-  },
-  "minimum-stability": "stable"
+  }
 }
