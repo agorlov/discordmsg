@@ -7,7 +7,7 @@
   "license": "MIT",
   "version": "1.0.0",
   "autoload": {
-    "classmap": [ "DiscordMsg.php" ]
+    "classmap": [ "Msg.php", "DiscordMsg.php" ]
   },
   "require": {
     "php": ">=7.1.0",
