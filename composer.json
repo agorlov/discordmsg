@@ -7,11 +7,11 @@
       "email": "a.gorlov@gmail.com"
     }
   ],
-  "keywords": ["php", "library","class", "discord", "message"],
+  "keywords": ["php", "library","class", "discord", "message", "notification"],
   "type": "library",
   "homepage": "https://github.com/agorlov/discordmsg",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "autoload": {
     "classmap": [ "Msg.php", "DiscordMsg.php" ]
   },
