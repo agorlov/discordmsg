@@ -9,24 +9,10 @@ about deploying my project to production.
 
 ### Composer
 
-**Add to** ``composer.json``:
-
-```json
-{
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/agorlov/discordmsg"
-    }
-  ],
-  "require": {
-    "agorlov/discordmsg":"dev-master"
-  }
-}
-```
+Execute:
 
 ```bash
-$ composer install
+$ composer require agorlov/discordmsg
 ``` 
 
 **Create** ``example.php``:
