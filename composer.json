@@ -1,6 +1,6 @@
 {
   "name": "agorlov/discordmsg",
-  "description": "PHP Class To Send Discord message",
+  "description": "Little class to send Discord message",
   "authors": [
     {
       "name": "Alexandr Gorlov",
@@ -16,6 +16,7 @@
   },
   "require": {
     "php": ">=7.1.0",
-    "ext-curl": "*"
+    "ext-curl": "*",
+    "ext-json": "*"
   }
 }

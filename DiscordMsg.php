@@ -34,7 +34,7 @@ final class DiscordMsg implements Msg
     /**
      * DiscordMsg constructor.
      *
-     * To Test Join https://discord.gg/Bh4EZB
+     * To Test Join https://discord.gg/jB5FsPf
      *
      * How to create own webhook see at https://github.com/agorlov/discordmsg
      *

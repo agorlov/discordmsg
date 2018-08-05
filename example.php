@@ -16,7 +16,7 @@ require_once 'DiscordMsg.php';
 
 
 echo "To see dumb messages..\n";
-echo "..join the discordmsg chanel https://discord.gg/Bh4EZB and enjoy!\n";
+echo "..join the discordmsg chanel https://discord.gg/jB5FsPf and enjoy!\n";
 echo "Feel free to test!\n";
 
 
