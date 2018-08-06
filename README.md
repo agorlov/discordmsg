@@ -35,7 +35,8 @@ $ php example.php
 
 Check discord chanel (for tests), your message is there:
 
-https://discord.gg/Bh4EZB
+https://discord.gg/jB5FsPf
+
 
 
 
