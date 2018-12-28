@@ -86,6 +86,21 @@ $msg->send();
 $ php example.php
 ```
 
+## How to notify user
+
+Thank to @bricecarbou (https://github.com/agorlov/discordmsg/issues/3)
+
+To notify anybody by webhook, we need to use the "real" id of user (recover in discord with @<username>) and use $msg="<@id_recovered> ...
+
+```php
+$msg = "<@4386638385456546554> is notified";
+(new \AG\DiscordMsg(
+  $msg, // message
+  $webhookurl, // chanel webhook link
+  "Trad Bot", // bot name
+  '' // avatar url
+))->send();
+```
 
 
 ## How to get Webhook link
